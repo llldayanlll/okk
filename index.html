@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage with Comments</title>
+</head>
+<body>
+    <h1>Webpage with Comments</h1>
+    
+    <!-- Display comments from comments.md -->
+    <div id="comments">
+        <h2>Comments</h2>
+        <ul>
+            <li><a href="link-to-github-issue-1">Comment 1</a></li>
+            <li><a href="link-to-github-issue-2">Comment 2</a></li>
+            <!-- Add more comment links here -->
+        </ul>
+    </div>
+
+    <!-- Comment submission form -->
+    <div id="comment-form">
+        <h2>Leave a Comment</h2>
+        <form action="https://github.com/your-username/your-repo/issues/new" method="POST">
+            <input type="text" name="title" placeholder="Comment title" required>
+            <textarea name="body" placeholder="Your comment" required></textarea>
+            <input type="submit" value="Submit Comment">
+        </form>
+    </div>
+</body>
+</html>
